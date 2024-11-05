@@ -1,8 +1,47 @@
+:root {
+  --Stone-100: hsl(30, 54%, 90%);
+  --Stone-150: hsl(30, 18%, 87%);
+  --Stone-600: hsl(30, 10%, 34%);
+  --Stone-900: hsl(24, 5%, 18%);
+  --Brown-800: hsl(14, 45%, 36%);
+  --Rose-800: hsl(332, 51%, 32%);
+  --Rose-50: hsl(330, 100%, 98%);
+}
+
+@font-face {
+  font-family: "Outfit", "YoungSerif";
+  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("ttf"),
+    url("./assets/fonts/young-serif/YoungSerif-Regular.ttf") format("ttf");
+  font-display: fallback;
+}
+
+body {
+  background-color: var(--Stone-100);
+}
+
+p {
+  font-family: "Outfit";
+}
+
+img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.recipe-container {
+  width: 70%;
+  margin: auto;
+}
+
 .attribution {
-    font-size: 11px;
-    text-align: center;
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
