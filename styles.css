@@ -10,11 +10,19 @@
 }
 
 @font-face {
-  font-family: "Outfit" /*, "YoungSerif"*/;
+  font-family: "Outfit";
   src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
-    format("truetype")
-    /*,
-    url("./assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype")*/;
+    format("truetype");
+
+  font-style: normal;
+  font-weight: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "YoungSerif";
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf")
+    format("truetype");
   font-style: normal;
   font-weight: normal;
   font-display: fallback;
@@ -26,7 +34,7 @@ body {
 }
 
 h1 {
-  /*font-family: "YoungSerif";*/
+  font-family: "YoungSerif";
   font-weight: 900;
 }
 
