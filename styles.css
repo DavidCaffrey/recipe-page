@@ -10,10 +10,11 @@
 }
 
 @font-face {
-  font-family: "Outfit", "YoungSerif";
+  font-family: "Outfit" /*, "YoungSerif"*/;
   src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
-      format("truetype"),
-    url("./assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+    format("truetype")
+    /*,
+    url("./assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype")*/;
   font-style: normal;
   font-weight: normal;
   font-display: fallback;
@@ -21,15 +22,15 @@
 
 body {
   background-color: var(--Stone-100);
+  font-family: "Outfit";
 }
 
 h1 {
-  font-family: "YoungSerif";
+  /*font-family: "YoungSerif";*/
   font-weight: 900;
 }
 
 p {
-  font-family: "Outfit";
 }
 
 img {
